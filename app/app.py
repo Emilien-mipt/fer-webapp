@@ -2,7 +2,6 @@
 
 import numpy as np
 import streamlit as st
-from PIL import Image
 import cv2
 from fer_pytorch.fer import FER
 import torch
