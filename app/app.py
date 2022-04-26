@@ -1,10 +1,10 @@
 """Streamlit web app"""
 
+import cv2
 import numpy as np
 import streamlit as st
-import cv2
-from fer_pytorch.fer import FER
 import torch
+from fer_pytorch.fer import FER
 
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
