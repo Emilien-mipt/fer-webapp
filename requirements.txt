@@ -1,7 +1,7 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 torch==1.8.0+cpu
 torchvision==0.9.0+cpu
-fer-pytorch==1.0.0
+fer-pytorch==1.1.0
 numpy>=1.19.5,<=1.22
 opencv-python>=4.5.1.48,<=4.5.5.64
 streamlit==1.8.1
