@@ -35,15 +35,6 @@ def main():
         if not output:
             st.write("No faces detected")
         else:
-            result_dict = {}
-            result_dict = FER.preprocess_output_list(output, result_dict)
-
-            box_coordinates = result_dict["box"]
-            emotion = result_dict["emotion"]
-            probability = result_dict["probability"]
-
-            FER.visualize(image, box_coordinates, emotion, probability)
-
             st.image(image, caption="After", use_column_width=True, channels="BGR")
 
 
