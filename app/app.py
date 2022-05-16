@@ -35,6 +35,7 @@ def main():
         if not output:
             st.write("No faces detected")
         else:
+            print(output)
             st.image(image, caption="After", use_column_width=True, channels="BGR")
 
 
